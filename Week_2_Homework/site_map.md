@@ -1,0 +1,252 @@
+# Allrecipes Website
+
+## ##Dinners ##Meals ##Ingredients ##Occasions ##Cuisines ##Kitchen Tips ##News ##Features ##About Us
+
+### Breakfast and Brunch
+- Breakfast Bread
+- Waffles
+- Breakfast Drinks
+- Breakfast Casseroles
+- Breakfast Cereals
+- Crepes and Blintzes
+- Breakfast Eggs
+- French Toast
+- Breakfast Meat and Seafood
+- Pancakes
+- Breakfast Potatoes
+- Breakfast Cookes
+- Breakfast Bowls
+- Breakfast Burritos
+- Breakfast Quiche
+- Breakfast Bacon
+- Breakfast Sausage
+- Smoothies
+- Southern Breakfast and Brunch
+- Healthy Breakfast and Brunch
+
+### Lunch
+- School Lunch Ideas and Recipes
+- Healthy School Lunch
+- Healthy Lunches
+- Bowl Recipes
+- Sandwiches
+- Sandwich Wraps and Roll-Ups
+- Soup
+- Salad Recipes
+
+### Healthy
+- Healthy Snacks
+- Low-Fat Recipes
+- Low-Calorie Recipes
+- Healthy Appetizers
+- Healthy Main Dishes
+- Healthy Side Dishes
+- Healthy Salads
+- Healthy Breakfast and Brunch
+- Low Glycemic Impact Recipes
+- Raw Food Diet
+- Healthy Desserts
+- Healthy Lunches
+- Healthy Makeover Recipes
+- Mediterranean Diet
+- Paleo Diet
+- Low-Potassium Recipes
+- Clean Eating
+- Prebiotic and Probiotic Recipes
+- Healthy Soups and Stews
+- Healthy Bread
+- Low-Sodium Recipes
+- Heart-Healthy Recipes
+- Whole30 Recipes
+- Weight-Loss Recipes
+- Keto Diet
+- Superfoods
+- Low-Cholesterol Recipes
+- Dairy-Free Recipes
+- Diabetic Recipes
+- Egg-Free Recipes
+- Gluten-Free Recipes
+- Low-Carb Recipes
+- High-Fiber Recipes
+- Sugar-Free Recipes
+- Healthy Kid Recipes
+
+### Appetizers & Snacks
+- Antipasto
+- Cheese Appetizers
+- Dips and Spreads
+- Fruit Appetizers
+- Meat and Poultry Appetizers
+- Seafood Appetizers 
+- Vegetable Appetizers
+- Deviled Eggs
+- Bean and Pea Appetizers
+- Nuts and Seeds Appetizers
+- Wraps and Rolls Appetizers
+- Spicy Appetizers
+- Garlic Bread
+- Bruschetta 
+- Snack Recipes
+- Canapes and Crostini
+- Pickled Eggs 
+- Tapas Recipes
+- Pasta Appetizers
+- Guacamole
+- Salsa
+- Meatball Appetizers
+- Crab Cakes
+- Shrimp Appetizers
+- Crackers
+- Kids' Snacks 
+- Party Mix
+- Popcorn
+- Jalapeno Poppers
+- Mushroom Appetizers
+- Stuffed Mushrooms
+- Olive Appetizers
+- Slow Cooker Appetizers
+- Chicken Wings
+- Bacon Appetizers
+- Dill Pickles and Sweet Pickles
+
+### Salads
+- Coleslaw
+- Curry Salad
+- Waldorf Salad
+- Taco Salad
+- Egg Salad
+- Bean Salads
+- Fruit Salads
+- Grain Salads
+- Green Salads
+- Beef and Pork Salads
+- Pasta Salad
+- Potato Salad
+- Vegetable Salads
+- Layered Salads
+- Seafood Salad
+- Turkey Salad
+- BBQ & Grilled Salads
+- Dessert Salads
+- Main Dish Salads
+- Chicken Breasts Salads
+- Chicken Salad
+- Tuna Salad
+- Broccoli Salad
+- Greek Salads
+- Salad Dressings
+
+### Side Dishes
+- Potato Side Dishes
+- Coleslaw
+- Applesauce
+- Fries
+- Curry Side Dishes
+- Sauces and Condiments
+- Stuffing and Dressing
+- Hushpuppies
+- Bean and Pea Side Dishes
+- Side Dish Casseroles
+- Grain Side Dishes
+- Rice Side Dishes
+- Vegetable Side Dishes
+- Healthy Side Dishes
+- Dumplings
+- Quinoa Side Dishes
+- Rice Pilaf 
+- Broccoli Side Dishes
+- Brussels Sprouts Side Dishes
+- Green Bean Side Dishes
+- Roasted Vegetables 
+- Sweet Potato Side Dishes
+
+### Soups
+- Chicken Soup
+- Curry Soup
+- Cold Soups
+- Tortilla Soup
+- Taco Soup
+- Bean and Pea Soups
+- Cream Soups
+- Fruit Soup
+- Dry Soup Mixes
+- Seafood Soup
+- Noodle Soup
+- Vegetable Soup
+- Beef Soup
+- Pork Soup
+- Turkey Soup
+- Slow Cooker Soup Recipes
+- Chowder
+- Chicken Noodle Soup
+
+### Bread
+- Pizza Dough and Crusts
+- Bread Machine
+- Yeast Bread
+- Pastires
+- Holiday Bread
+- Quick Bread
+- Cinnamon Rolls
+- Biscuit
+- Cornbread
+- Banana Bread
+- Cranberry Bread
+- Irish Soda Bread
+- Pumpkin Bread
+- Zucchini Bread
+- Bagels
+- Egg Bread
+- Challah
+- Flat Bread
+- No-Knead Bread Recipes
+- Potato Bread
+- Pretzels
+- Roll and Bun Recipes
+- Sourdough Bread
+- White Bread 
+- Healthy Bread
+- Whole Grain Bread
+
+### Drinks
+- Hot Chocolate 
+- Beer Cocktails
+- Cider
+- Cocktails
+- Coffee Drinks
+- Punch
+- Shakes and Floats
+- Smoothies
+- Tea Drinks 
+- Eggnog
+- Liqueuers
+- Slushies
+- Shots
+- Juice
+- Mulled Wine
+- Mocktails
+- Sangria
+- Lemonade
+
+### Desserts
+- Chocolate Desserts 
+- Crisps and Crumbles
+- Frosting and Icing Recipes
+- Fruit Desserts
+- Specialty Desserts
+- Nut Desserts
+- Dessert Filling Recipes
+- Caramel Desserts
+- Cake Recipes
+- Cobbler
+- Cookies
+- Custards and Puddings 
+- Frozen Desserts
+- Mousse
+- Pie Recipes
+- Candy
+- Cheesecake
+- Cupcakes
+- Healthy Desserts
+- Dessert Sauces
+
