@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Scratch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/WebDevSpring2024-Files/Final Project/styles.css">
+</head>
+<body class="p-0 m-0 border-1 custom-bg">
+    <nav class="navbar navbar-expand-lg nav-custom-bg p-0">
+        <div class="container-fluid border border-5 border-custom-color rounded-1">
+          <a class="navbar-brand" href="index.html">
+            <img src="./imgs/Vinyl Icon.jpeg" width="30" height="30" class="d-inline-block align-top">
+            Record Scratch</a>
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-4">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- <div class="container overflow-hidden text-center">
+        <div class="row gx-5">
+            <div class="col-md-4 rounded-5">
+                <div class="p-3">
+
+                </div>
+            </div>
+
+            <div class="col-md-4 offset-2 rounded-5">
+                <div class="p-3"> Column 2</div>
+            </div>
+        </div>
+
+    </div> -->
+  <div class="container text-center">
+    <img 
+    src="./imgs/headshot.jpg" 
+    id="hello-headshot"
+    class="image-thumbnail 
+    headshot-size 
+    d-block
+    position-absolute top-50 start-0 translate-middle-y 
+    border border-2 border-custom-color
+    shadow p-3 mb-5 bg-body-tertiary rounded"
+    alt="my headshot"
+    >
+
+    <div class="about-text-id">
+        <div class="
+        row-custom 
+        position-absolute top-50 start-50 translate-middle-y
+    
+        ">
+        <div class="col-md-12 col-sm-4
+        border border-custom-color border-5 rounded-5 about-text-mb"> 
+        <h2 class="about-heading rounded-4 ">About Me</h2>
+        <p class="about-text">  
+          Hi there my name is Rayan Perera and I'm a junior at NYU studying Integrated Design Media.
+          Record Scratch was created just simply because I love music and always wanted to pretend I had my own vinyl 
+          collection. I've wanted to have a vinyl collection to play music for myself or friends and this is my way of doing it!
+          Here what you'll expect to see is some of the albums that I personally love and my opinions on them. Whether you should listen
+          to them or not. But that's not all. Sure this is my own collection but I'm opening to hearing out your opinions!
+          In the contact tab you can message and tell me what album I should add to my collection. Just fill out the form and hey, maybe your
+          album will be next in my collection! Hope you enjoy!
+        
+        </p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script text="text/javascript">
+    document.addEventListener('DOMContentLoaded', () =>{
+    //make content fade in on load
+      gsap.from('body', 1, {opacity: 0})
+
+    //make vinyl slowly come out
+      gsap.from('#hi-text', 1, {left: -500, delay: 2 })
+
+      gsap.to('#hi-there', 5,  {rotation:1440, repeat: -1, yoyo: true})
+   
+
+  }) 
+
+      
+
+    </script>    
+
+  </body>
+
+</html>

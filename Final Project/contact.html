@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Scratch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/WebDevSpring2024-Files/Final Project/styles.css">
+</head>
+<body class="p-0 m-0 border-1 custom-bg">
+    <nav class="navbar navbar-expand-lg nav-custom-bg p-0">
+        <div class="container-fluid border border-5 border-custom-color rounded-1">
+          <a class="navbar-brand" href="index.html">
+            <img src="./imgs/vinyl without bg.png" width="30" height="30" class="d-inline-block align-top">
+            Record Scratch</a>
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-4">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      
+
+    
+    <div id="vinylContact" class="container contact-bg-color w-50 p-5 mt-4 rounded-5 shadow">
+        <h1>Send Me Albums Here!</h1>
+        <form
+        action="https://formspree.io/f/xdoqbdan"
+        method="POST"
+        >
+
+        <div class="row mb-3">
+            <div class="col form-floating mb-3">
+                <input type="text"
+                class="form-control form-control-lg"
+                placeholder="Name"
+                aria-label="name"
+                required
+                />
+                <label for="name" class="col-form-label-lg">Name</label>
+            
+
+            </div>
+            <div class="col form-floating mb-3">
+                <input type="email"
+                class="form-control form-control-lg"
+                name="email"
+                placeholder="email"
+                aria-label="email"
+                required
+                />
+                <label for="email" class="col-form-label-lg">Email:</label>
+
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col form-floating mb-3">
+                <input type="text"
+                class="form-control form-control-lg"
+                name="artist"
+                placeholder="artist"
+                aria-label="artist"
+                required
+                />
+                <label for="artist" class="col-form-label-lg">Artist:</label>
+
+            </div>
+
+            <div class="col form-floating mb-3">
+                <input type="text"
+                class="form-control form-control-lg"
+                name="album"
+                placeholder="album"
+                aria-label="album"
+                required
+                />
+                <label for="album" class="col-form-label-lg">Album:</label>
+
+            </div>
+        </div>
+
+
+
+        
+
+        <div class="form-floating">
+            <textarea
+            class="form-control"
+            style="height: 10rem;"
+            placeholder="Leave a comment here"
+            name="message"
+            required
+            >
+            </textarea>
+            <label for="message"> Tell my why this album should be here!</label>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col col-lg-6 offset-lg-6">
+                <button type="submit" class="btn btn-dark btn-lg w-100">
+                    Send
+                </button>
+            </div>
+        </div>
+    </div>   
+    <input
+    name="subject"
+    type="hidden"
+    value="New Submission from {{ name }}"
+    >
+        </form>
+    </div>
+<img src="./imgs/vinyl without bg.png" id="hi-there" class="vinyl-sleeved"/>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+
+<script type="text/javascript" src="js/TweenMax.js"></script>
+
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', () =>{
+    //make content fade in on load
+    gsap.from('body', 1, {opacity: 0})
+
+    //make vinyl slowly come out
+    gsap.from('#hi-there', 1, {left:0, delay: 0.5 })
+
+    gsap.to('#hi-there', 5,  {rotation:1440, repeat: -1, yoyo: true})
+
+    
+   
+
+  })
+  
+  let mm = gsap.matchMedia();
+
+  mm.add("(max-width: 767px)", () => {
+
+    gsap.from('#hi-there', 1, {left:0, delay: 0.5 })
+
+    gsap.to('#hi-there', 5,  {rotation:1440, repeat: -1, yoyo: true})
+
+  })
+    
+</script>
+
+
+    </body>
+</html>
